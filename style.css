@@ -1,28 +1,59 @@
+body {
+  font-family: arial;
+  margin: 0;
+}
+
 header {
-
+  margin: 35px auto;
+  text-align: center;
 }
 
-.flexx {
+.container {
   display: flex;
-
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-transform: uppercase;
+  flex-basis: 19%;
+  padding: 30px;
+  text-align: center;
 }
 
-img {
-
+article {
+  margin: 0px 15px;
 }
 
-#Fullname {
+#img {
+  width: 200px;
+}
 
+#FullName {
+  border-bottom: solid grey;
+}
+
+#email {
+  font-weight: 100;
+  font-size: 15px;
+  color: grey;
 }
 
 #Address1 {
-
+  text-transform: capitalize;
+  color: grey;
+  padding: 15px 0px 0px 0px;
 }
 
 #Address2 {
+  text-transform: capitalize;
+  color: grey;
+  padding: 0px;
+}
 
+#phone {
+  text-transform: capitalize;
+  color: grey;
+  padding: 0px 0px 15px 0px;
 }
 
 #SocialSN {
-  
+  color: grey;
 }
