@@ -6,6 +6,7 @@ body {
 header {
   margin: 35px auto;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .container {
